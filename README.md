@@ -1,3 +1,7 @@
+# About
+
+The objective of this project is develop a site to create a online RPG form. The form template used will be from the game Arkanun and the user will able to create a new form to register your character (using the standart score config, like describes in the books of the game) or config a new pontuation system befor register.
+
 # RpgForm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
