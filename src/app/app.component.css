@@ -1,0 +1,22 @@
+/* Adicionando cor de fundo preta para a barra de navegação */
+.topnav {
+    background-color: #0033ff;
+    overflow: hidden;
+  }
+  
+  /* Estilo dos links dentro da barra de navegação */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Mudando a cor dos links no estado hover */
+  .topnav a:hover {
+    background-color: #009999;
+    color: #f2f2f2;
+    font-weight: bold;
+  }
