@@ -2,6 +2,7 @@
 .topnav {
     background-color: #0033ff;
     overflow: hidden;
+    width: 100vw;
   }
   
   /* Estilo dos links dentro da barra de navegação */
@@ -19,4 +20,8 @@
     background-color: #009999;
     color: #f2f2f2;
     font-weight: bold;
+  }
+
+  body {
+    margin: 0px;
   }

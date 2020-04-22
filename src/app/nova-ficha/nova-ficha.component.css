@@ -1,0 +1,16 @@
+.container {
+    width: 100vw;
+    height: 1000px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.conteudo {
+    width: 900px;
+    height: 990px;
+    background-color: green;
+    margin-top: 10px;
+}
