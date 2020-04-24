@@ -1,3 +1,7 @@
+div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .container {
     width: 100vw;
     height: 1000px;
@@ -13,4 +17,16 @@
     height: 990px;
     background-color: green;
     margin-top: 10px;
+}
+
+.logo {
+    font-size: 100px; 
+    text-align: center;
+    background-color: yellow;
+}
+
+.cabecalho {
+    width: 900px;
+    font-size: 20px; 
+    background-color: pink;
 }
