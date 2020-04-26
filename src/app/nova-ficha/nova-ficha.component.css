@@ -30,3 +30,8 @@ div {
     font-size: 20px; 
     background-color: pink;
 }
+
+.atributos {
+    background-color: orangered;
+    float: left;
+}
