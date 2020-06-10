@@ -12,4 +12,11 @@ export class NovaFichaComponent implements OnInit {
   ngOnInit() {
   }
 
+  adicionaSubgrupo(grupo, subgrupo) {
+    var g = (<HTMLSelectElement>document.getElementById(grupo));
+    var sg = (<HTMLSelectElement>document.getElementById(subgrupo));
+
+    
+  }
+
 }

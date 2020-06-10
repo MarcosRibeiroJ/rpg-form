@@ -78,12 +78,14 @@
         </div>
         <div class="pericias">
             Perícias <br> <br>
-            <select  style="display: flex; flex-direction: column; justify-content: left">
-                <option>Armadilhas</option>
-                <option>Ciências</option>
-                <option>Ciências Proibidas</option>
-                <option>Idiomas</option>
+            <select  style="display: flex; flex-direction: column; justify-content: left" id="grupo" (change)="adicionaSubgrupo('grupo','subgrupo')">
+                <option value="armadilhas">Armadilhas</option>
+                <option value="ciencias">Ciências</option>
+                <option value="cproibidas">Ciências Proibidas</option>
+                <option value="idioma">Idiomas</option>
             </select>
+
+            <select id="subgrupo"></select>
         </div>
     </div>
 </div>
