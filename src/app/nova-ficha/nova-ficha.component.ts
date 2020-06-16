@@ -18,12 +18,14 @@ export class NovaFichaComponent implements OnInit {
 
     sg.innerHTML = "";
 
-    if(g.value == "idioma") {
-      var opcaoSub = ["portugues|Portugues","ingles|Ingles"];
-    } else if(g.value == "ciencias") {
-      var opcaoSub = ["herbalismo|Herbalismo","historia|História"];
-    } else if(g.value == "cproibidas") {
-      var opcaoSub = ["alquimia|Alquimia","ocultismo|Ocultismo"];
+    if(g.value == "animais") {
+      var opcaoSub = ["tanimais|Treinamento de Animais (0)","montaria|Montaria (AGI)","doma|Doma (0)","veterinaria|Veterinária (0)"];
+    } else if(g.value == "artes") {
+      var opcaoSub = ["arquitetura|Arquitetura (0)","atuacao|Atuação (CAR)","canto|Canto (CAR)","carte|Crítica de Arte (PER)","culinaria|Culinária (PER)","danca|Dança (AGI)","dpintura|Desenho e Pintura (DEX)","escapismo|Escapismo (AGI)","escultura|Escultura (DEX)","fotografia|Fotografia (PER)","ilusionismo|Ilusionismo (DEX)","imusicais|Instrumentos Musicais (DEX)","joalheria|Joalheria (DEX)","prestidigitacao|Prestidigitação (DEX)","redacao|Redação (INT)"];
+    } else if(g.value == "artifice") {
+      var opcaoSub = ["artesanato|Artesanato","armeiro|Armeiro","marceneiro|Marceneiro","ferreiro|Ferreiro","coureiro|Coureiro","costureiro|Costureiro"];
+    } else if(g.value == "aobjetos") {
+      var opcaoSub = ["antiguidades|Antiguidades","gemas|Gemas","mvaliosos|Metais Valiosos (Ourives)","oarte|Obras de Arte"];
     }
 
     for(var opcao in opcaoSub) {
