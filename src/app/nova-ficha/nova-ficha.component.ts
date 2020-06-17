@@ -26,6 +26,14 @@ export class NovaFichaComponent implements OnInit {
       var opcaoSub = ["artesanato|Artesanato","armeiro|Armeiro","marceneiro|Marceneiro","ferreiro|Ferreiro","coureiro|Coureiro","costureiro|Costureiro"];
     } else if(g.value == "aobjetos") {
       var opcaoSub = ["antiguidades|Antiguidades","gemas|Gemas","mvaliosos|Metais Valiosos (Ourives)","oarte|Obras de Arte"];
+    } else if(g.value == "ciencias") {
+      var opcaoSub = ["agricultura|Agricultura","anatomia|Anatomia","antropologia|Antropologia","arqueologia|Arqueologia","astronomia|Astronomia","botanica|Botânica","djurisprudencia|Direito ou Jurisprudência","ecologia|Ecologia","filosofia|Filosofia","fisica|Física","genetica|Genética","geografia|Geografia","geologia|Geologia","heraldica|Heráldica","herbalismo|Herbalismo","historia|História","literatura|Literatura","matematica|Matemática","meteorologia|Meteorologia","pedagogia|Pedagogia","psicologia|Psicologia","quimica|Química","sociologia|Sociologia","treligiao|Teologia ou Religião","ufologia|Ufologia","zoologia|Zoologia"];
+    } else if(g.value == "cproibidas") {
+      var opcaoSub = ["alquimia|Alquimia","anjos|Anjos","arkanun|Arkanun","astrologia|Astrologia","bruxas|Bruxas","buzios|Búzios","cmagia|Caminhos da Magia","demonios|Demônios","eden|Éden","elfos|Elfos","encantamentos|Encantamentos","infernun|Infernun","oculto|Oculto","paradisia|Paradísia","possessoes|Possessões","psionicismo|Psionicismo","rituais|Rituais","spiritum|Spiritum","tarot|Tarot","tmagia|Teoria da Magia","vastral|Viagem Astral"];
+    } else if(g.value == "conducao") {
+      var opcaoSub = ["automovel|Automóvel","onibus|Ônibus","caminhao|Caminhão","empilhadeira|Empilhadeira","guindaste|Guindaste","carruagem|Carruagem","motocicleta|Motocicleta","ccorrida|Carro de Corrida","mcorrida|Motocicleta de Corrida","helicoptero|Helicóptero","acomercial|Avião Comercial","amilitar|Avião Militar","oespacial|Ônibus Espacial","lancha|Lancha","iate|Iate","veleiro|Veleiro","ncargueiro|Navio Cargueiro","ultraleve|Ultraleve","adelta|Asa Delta"];
+    } else if(g.value == "engenharia") {
+      var opcaoSub = ["aeronautica|Aeronáutica","alimentos|Alimentos","civil|Civil","computacao|Computação","demolicoes|Demolições","eletrica|Elétrica","eletronica|Eletrônica","materiais|Materiais","mecanica|Mecânica","mecatronica|Mecatrônica","naval|Naval","quimica|Química"];
     }
 
     for(var opcao in opcaoSub) {
