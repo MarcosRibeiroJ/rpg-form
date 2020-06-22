@@ -78,25 +78,85 @@
         </div>
         <div class="pericias">
             Perícias <br> <br>
-            <select  style="display: flex; flex-direction: column; justify-content: left" id="grupo" (change)="adicionaSubgrupo('grupo','subgrupo')">
-                <option value="vazio"></option>
-                <option value="animais">Animais</option>
-                <option value="armadilhas">Armadilhas (PER)</option>
-                <option value="artes">Artes</option>
-                <option value="artifice">Artífice (DEX)</option>
-                <option value="aobjetos">Avaliação de Objetos (PER)</option>
-                <option value="camuflagem">Camuflagem (PER)</option>
-                <option value="ciencias">Ciências (INT)</option>
-                <option value="cproibidas">Ciências Proibidas ou Alternativas (0)</option>
-                <option value="conducao">Condução (AGI)</option>
-                <option value="disfarce">Disfarce (INT)</option>
-                <option value="eletronica">Eletrônica (0)</option>
-                <option value="engenharia">Engenharia</option>
-                <option value="escutar">Escutar (PER)</option>
-                <option value="esquiva">Esquiva (AGI)</option>
-            </select>
-
-            <select id="subgrupo"></select>
+            <table>
+                <tr>
+                    <th>
+                        Grupo
+                    </th>
+                    <th>
+                        Subgrupo
+                    </th>
+                    <th>
+                        Gasto
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <select style="width: fit-content" id="grupo" (change)="adicionaSubgrupo('grupo','subgrupo')">
+                            <option value="vazio"></option>
+                            <option value="animais">Animais</option>
+                            <option value="armadilhas">Armadilhas (PER)</option>
+                            <option value="artes">Artes</option>
+                            <option value="artifice">Artífice (DEX)</option>
+                            <option value="aobjetos">Avaliação de Objetos (PER)</option>
+                            <option value="camuflagem">Camuflagem (PER)</option>
+                            <option value="ciencias">Ciências (INT)</option>
+                            <option value="cproibidas">Ciências Proibidas ou Alternativas (0)</option>
+                            <option value="conducao">Condução (AGI)</option>
+                            <option value="disfarce">Disfarce (INT)</option>
+                            <option value="eletronica">Eletrônica (0)</option>
+                            <option value="engenharia">Engenharia</option>
+                            <option value="escutar">Escutar (PER)</option>
+                            <option value="esquiva">Esquiva (AGI)</option>
+                            <option value="esportes">Espostes</option>
+                            <option value="etiqueta">Etiqueta (CAR)</option>
+                            <option value="explosivos">Explosivos (0)</option>
+                            <option value="falsificacao">Falsificação (INT)</option>
+                            <option value="furtar">Furtar (DEX)</option>
+                            <option value="furtividade">Furtividade (AGI)</option>
+                            <option value="idiomas">Idiomas (0)</option>
+                            <option value="informatica">Informática (0)</option>
+                            <option value="jogos">Jogos</option>
+                            <option value="manipulacao">Manipulação</option>
+                            <option value="mcombate">Manobras de Combate</option>
+                            <option value="mfechaduras">Manuseio de Fechaduras (0)</option>
+                            <option value="mecanica">Mecânica (DEX)</option>
+                            <option value="medicina">Medicina</option>
+                            <option value="mineracao">Mineração (0)</option>
+                            <option value="negociacao">Negociação</option>
+                            <option value="pesquisa">Pesquisa (PER)</option>
+                            <option value="procura">Procura (PER)</option>
+                            <option value="rastreio">Rastreio (PER)</option>
+                            <option value="sobrevivencia">Sobrevivência (PER)</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select id="subgrupo"></select>
+                    </td>
+                    <td>
+                        <input type="number" size="3" >
+                    </td>
+                    <td>
+                        <button type="button">Add</button>
+                    </td>
+                </tr>
+            </table><br>
+            <table border="1">
+                <tr>
+                    <th>
+                        Grupo
+                    </th>
+                    <th>
+                        Subgrupo
+                    </th>
+                    <th>
+                        Gasto
+                    </th>
+                    <th>
+                        Total
+                    </th>
+                </tr>
+            </table>
         </div>
     </div>
 </div>

@@ -34,6 +34,30 @@ export class NovaFichaComponent implements OnInit {
       var opcaoSub = ["automovel|Automóvel","onibus|Ônibus","caminhao|Caminhão","empilhadeira|Empilhadeira","guindaste|Guindaste","carruagem|Carruagem","motocicleta|Motocicleta","ccorrida|Carro de Corrida","mcorrida|Motocicleta de Corrida","helicoptero|Helicóptero","acomercial|Avião Comercial","amilitar|Avião Militar","oespacial|Ônibus Espacial","lancha|Lancha","iate|Iate","veleiro|Veleiro","ncargueiro|Navio Cargueiro","ultraleve|Ultraleve","adelta|Asa Delta"];
     } else if(g.value == "engenharia") {
       var opcaoSub = ["aeronautica|Aeronáutica","alimentos|Alimentos","civil|Civil","computacao|Computação","demolicoes|Demolições","eletrica|Elétrica","eletronica|Eletrônica","materiais|Materiais","mecanica|Mecânica","mecatronica|Mecatrônica","naval|Naval","quimica|Química"];
+    } else if(g.value == "esportes") {
+      var opcaoSub = ["acrobacia|Acrobacia (AGI)","alpinismo|Alpinismo (AGI)","arremesso|Arremesso (DEX)","basquete|Basquete (DEX)","caca|Caça (PER)","canoagem|Canoagem (CON)","corrida|Corrida (CON)","esqui|Esqui (AGI)","futebol|Futebol (AGI)","mergulho|Mergulho (CON)","natacao|Natação (AGI)","paraquedismo|Paraquedismo (AGI)","pesca|Pesca (PER)","salto|Salto (AGI)","sornamental|Salto Ornamental (AGI)","tenis|Tênis (DEX)","voleibol|Voleibol (DEX)"];
+    } else if(g.value == "etiqueta") {
+      var opcaoSub = ["clero|Clero","comercial|Comercial","diplomacia|Diplomacia","mnegro|Mercado Negro","nobreza|Nobreza","submundo|Submundo"];
+    } else if(g.value == "falsificacao") {
+      var opcaoSub = ["documentos|Documentos","esculturas|Esculturas","fotografias|Fotografias","joalherias|Joalherias","pinturas|Pinturas"];
+    } else if(g.value == "idiomas") {
+      var opcaoSub = ["alemao|Alemão","arabe|Árabe","aramaico|Aramaico","catalao|Catalão","chines|Chinês","espanhol|Espanhol","frances|Francês","grego|Grego","hindu|Hindu","ingles|Inglês","italiano|Italiano","japones|Japonês","latim|Latim","polones|Polonês","portugues|Português","russo|Russo"];
+    } else if(g.value == "informatica") {
+      var opcaoSub = ["computacao|Computação","internet|Internet","hacker|Hacker","manutencao|Manutenção","programacao|Programação"];
+    } else if(g.value == "jogos") {
+      var opcaoSub = ["cartas|Cartas (PER)","tabuleiro|Tabuleiro (INT)","videogames|Videogames (DEX)"];
+    } else if(g.value == "manipulacao") {
+      var opcaoSub = ["empatia|Empatia (CAR)","hipnose|Hipnose (0)","impressionar|Impressionar (CAR)","interrogatorio|Interrogatório (INT)","intimidacao|Intimidação (WILL)","labia|Lábia (CAR)","lideranca|Liderança (CAR)","manha|Manha/Streetwise (CAR)","seducao|Sedução (CAR)","tortura|Tortura (INT)"];
+    } else if(g.value == "mcombate") {
+      var opcaoSub = ["larmas|Luta com duas Armas (25)","lcegas|Luta às Cegas (20)","refem|Refém (15)","mimpressionar|Manobras para Impressionar (20)","imobilizacao|Imobilização (20)","cmembros|Chaves de Membros (20)"];
+    } else if(g.value == "medicina") {
+      var opcaoSub = ["cirurgia|Cirurgia (DEX)","psocorros|Primeiro Socorros (INT)","oftalmologia|Oftalmologia (INT)","dermatologia|Dermatologia (INT)","psiquiatria|Psiquiatria (INT)","cardiologia|Cardiologia (INT)","neurologia|Neurologia (INT)","urologia|Urologia (INT)","ortopedia|Ortopedia (INT)","oncologia|Oncologia (INT)","gastrologia|Gastrologia (INT)","otorrinolaringologia|Otorrinolaringologia (INT)","veterinaria|Veterinária (INT)"];
+    } else if(g.value == "mineracao") {
+      var opcaoSub = ["cristais|Cristais","gemas|Gemas","metais|Metais"];
+    } else if(g.value == "negociacao") {
+      var opcaoSub = ["barganha|Barganha (CAR)","burocracia|Burocracia (INT)","contabilidade|Contabilidade (INT)","marketing|Marketing (INT)"];
+    } else if(g.value == "sobrevivencia") {
+      var opcaoSub = ["deserto|Deserto","floresta|Floresta","gelo|Gelo","montanha|Montanha","planicie|Planície","selva|Selva"];
     }
 
     for(var opcao in opcaoSub) {
